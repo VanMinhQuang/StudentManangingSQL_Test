@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    >
+
+    <LinearLayout
+        android:id="@+id/layout_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+            <TextView
+                android:id="@+id/textStudentID"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="MSSV"/>
+            <TextView
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:id="@+id/textStudentName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:textSize="20sp"
+                android:text="ten"/>
+            <TextView
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:id="@+id/textStudentScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="diem"/>
+            <TextView
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:id="@+id/textStudentFaculty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="ten khoa"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#FDD835"
+        android:gravity="center"
+        android:text="Hoc Sinh"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="Quản lý Hoc Sinh"
+        android:textStyle="bold"
+        android:textSize="28sp" />
+    <EditText
+        android:id="@+id/dialogInputMaSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="MSSV"
+        android:inputType="number"
+        android:minHeight="48dp" />
+    <EditText
+        android:id="@+id/dialogInputTenSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:hint="Tên SV"
+        android:inputType="text"
+        android:minHeight="48dp" />
+    <EditText
+        android:id="@+id/dialogInputDiemSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:hint="Diem"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+    <Spinner
+        android:id="@+id/dialogInputKhoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:inputType="text"
+        android:minHeight="48dp" />
+    <Button
+        android:id="@+id/dialogSaveStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8E24AA"
+        android:text="Save"/>
+</LinearLayout>

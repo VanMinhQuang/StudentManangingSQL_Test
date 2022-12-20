@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#FDD835"
+        android:gravity="center"
+        android:text="Khoa"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="Quản lý Khoa"
+        android:textStyle="bold"
+        android:textSize="28sp" />
+    <EditText
+        android:id="@+id/dialogInputMaKhoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mã Khoa"
+        android:inputType="number"
+        android:minHeight="48dp" />
+    <EditText
+        android:id="@+id/dialogInputTenKhoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:hint="Tên Khoa"
+        android:inputType="text"
+        android:minHeight="48dp" />
+    <Button
+        android:id="@+id/dialogSaveFaculty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8E24AA"
+        android:text="Save"/>
+</LinearLayout>
